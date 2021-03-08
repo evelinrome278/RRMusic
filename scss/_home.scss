@@ -1,0 +1,136 @@
+//PAGINA INDEX//
+
+/*Seccion Bienvenida*/
+
+.estilo-Bienvenida{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-image: url("../img/2.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+.estilo-Bienvenida__tituloBie{
+    padding: 50px;
+    font-size: 30px;
+    color:$colorNaranja;
+    font: $tituloGrande;
+}
+
+.estilo-Bienvenida__parrafoBie{
+    padding:30px;
+    text-align: justify;
+    font-size: 16px;
+    color:rgb(255, 255, 255);
+
+}
+
+.estilo-Bienvenida2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    font-size: 16px;
+    color:rgb(255, 255, 255);
+    margin: 20px;
+}
+
+
+.estilo-Bienvenida__imagenBie2{
+    display: grid;
+    width: 60%;
+    
+}
+
+.estilo-Bienvenida__imagenBie2:hover{
+    transform: scale(1.2);
+
+}
+
+//sección Discografía//
+
+.estilo-Discografia{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-items: center;
+    align-items: center;
+    background-image: url("../img/3.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+
+
+table{
+    
+    background-color:$colorGrisclaro;
+    
+    
+}
+
+.estilo-Discografia__imagenDisco{
+    width:100%;
+    
+    
+}
+
+/*Sección acerca*/ 
+
+.estilo-Acerca{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-image: url("../img/4.jpg");
+    background-repeat: no-repeat;
+    padding: 15px 15px;
+    width: 100%;
+    background-size: cover;
+}
+
+.estilo-Acerca__imagenAc{
+width: 90%;
+}
+
+.estilo-Acerca__tituloAc{  
+    text-align: center;
+    font: $tituloGrande;
+    color:$colorNaranja;
+
+}
+.estilo-Acerca__parrafoAc{
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 16px;
+    color:rgb(255, 255, 255);
+    text-align: justify;
+    line-height: 1.6;
+}
+
+
+/*Sección Recursos*/
+
+.estilo-Recursos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-image: url("../img/3.jpg");
+    padding: 20px;
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 100%;
+    background-size: cover;
+    font: $tituloGrande;
+   
+}
+
+
+
+.estilo-Recursos__efectoRe{
+    width: 90%; 
+
+}
+
+.estilo-Recursos__efectoRe:hover{
+    transform: scale(1.2);
+}
+

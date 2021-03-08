@@ -1,0 +1,44 @@
+/*Footer*/
+
+footer{
+    display: grid;
+    grid-area: pie;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-image: linear-gradient(to top, rgb(0, 0, 0) , rgb(27, 27, 27));
+
+    justify-items: center;
+    align-items: center;
+    background-color:$colorGris;
+    background-repeat: no-repeat;
+    padding: 20px;
+    line-height: 2.5;
+    
+    .footer__logof{
+    
+        width:100px;
+       
+    }
+
+    .footer__redes{
+        width: 50px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    
+}
+.footer__copyrigth{
+              
+    display: grid;
+    background-image: linear-gradient(to top, rgb(255, 105, 5),  rgb(0, 0, 0) );
+    padding: 15px;
+    text-align: center;
+ 
+}
+
+
+
+
+
+
+

@@ -1,0 +1,43 @@
+ul{
+    
+    list-style:url(../img/minitri.gif);
+}
+a{
+    text-decoration: none;
+
+
+    a:visited {
+        color:white;
+    }
+
+
+    a:hover {
+    background-color:$colorGrisclaro;    
+    }
+}
+
+div a{
+    padding: 15px 14px;
+}
+
+.bannerO{
+    background-image: url("../img/Banner_paginasc.png");
+    background-repeat: no-repeat;
+    height: 100%;
+    
+}
+
+.bannerO2{
+    background-image: url("../img/Banner_paginasd.png");
+    background-repeat: no-repeat;
+    
+    
+}
+
+.tituloBanner{
+    padding: 30px;
+    margin-left:400px;
+    font-weight: bold;
+    font: $tituloGrande;
+}
+
