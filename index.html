@@ -16,139 +16,229 @@
     </head> 
     
     <body >
-        <header class="header-Home">
+        
+        <header>
+                          
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#opciones">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
                 
-            <nav class="header-Home__Menu">
-                <div><img class="header-Home-menu__logo" src="img/logo.png" alt="logo"></div>
-                <div><a href="index.html">Inicio</a></div>
-                <div><a href="biografia.html">Biografía</a></div>
-                <div><a href="galeria.html">Galería</a></div>
-                <div><a href="recursos.html">Recursos</a></div>
-                <div><a href="contacto.html">Contacto</a></div>
+                <!-- logo -->
+                <a class="navbar-brand" href="index.html">
+                  <img src="img/logo.png" width="80" height="80" alt="logo">
+                </a>
+                
+                <!-- enlaces -->
+                <div class="collapse navbar-collapse" id="opciones">   
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="biografia.html">Biografía</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="galeria.html">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="recursos.html">Recursos</a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto </a>
+                      </li>            
+                  </ul>
+                </div>
             </nav>
-
-                        
-          
-            <div class="jumbotron">
-                <h1 class="display-3 header-Home__tituloEncima">Rodolfo Romero</h1>
-                <p class="lead header-Home__parrafoEncima">Rodolfo Romero fue un inspirador y talentoso Músico
-                    y compositor que se dedicó toda su vida a la música y a la interpretación.
-                    A través de sus inolvidables actuaciones en vivo y sus impecables
-                    grabaciones de estudio, fue perfeccionando sus capacidades técnicas
-                    y de sonido para formar una fuerza imparable en el mundo de la música.</p>
-               
-                <p class="lead">
-                  <a class="btn btn-dark text-light" href="biografia.html" role="button">Ver más</a>
-                </p>
+            
+                     
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                 
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                         <img src="img/1d.jpg" class="d-block w-100" alt="Banner1">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1 class="estilo-titulo__oscuro">Rodolfo Romero</h1>    
+                            <p>Rodolfo Romero fue un inspirador y talentoso Músico
+                                y compositor que se dedicó toda su vida a la música y a la interpretación.
+                            </p>
+                            <div>
+                                <a class="btn btn-dark text-light justify-content-center" href="biografia.html" role="button">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/1c.jpg" class="d-block w-100" alt="Banner1">
+                       <div class="carousel-caption d-none d-md-block">
+                           <h1 class="header-Home__tituloEncima text-dark">Rodolfo Romero</h1>    
+                           <p >A través de sus inolvidables actuaciones en vivo y sus impecables
+                            grabaciones de estudio, fue perfeccionando sus capacidades técnicas
+                            y de sonido para formar una fuerza imparable en el mundo de la música.
+                           </p>
+                           <div>
+                               <a class="btn btn-dark text-light justify-content-center" href="biografia.html" role="button">Ver más</a>
+                           </div>
+                       </div>
+                   </div>
+                      
+                            
+                  
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Siguiente</span>
+                </a>
               </div>
-
-
-
+            
         </header>
-
+        <!-- Bienvenida -->
+        <div class="container-fluid">
         <section class="estilo-Bienvenida">     
-            <div>
-                <h2 class="estilo-Bienvenida__tituloBie" >Bienvenidos</h2>
-            </div>
-            <div>
-                <p class="estilo-Bienvenida__parrafoBie">A través de este medio queremos honrar la memoria 
-                de un hombre y músico excepcional compartiendo su historia, hitos, música y testimonio de familia, amigos y alumnos.
-                
-                Rodolfo Romero dejo marca en la vida de muchas personas, tanto como un hombre ejemplar, esposo, padre, hijo de Dios y músico.
-                Te echamos de menos cada día que pasa, tu presencia sigue creciendo en nuestra memoria, por lo que queremos compartir esto con las personas
-                que tuvieron el privilegio de conocerlo como los que no.</p>
-            </div>
-        </section>
-        <section class="estilo-Bienvenida2">
-                
-                <img class="estilo-Bienvenida__imagenBie2"  src="img/r1.png">
-                <img class="estilo-Bienvenida__imagenBie2" src="img/r2.png">
-                <img class="estilo-Bienvenida__imagenBie2" src="img/r3.png">
-        </section>
-
-        <section>
-               
-            <div>
-                <p class="estilo-Bienvenida__parrafoBie">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui,
-                non pulvinar lorem felis nec erat.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui,
-                non pulvinar lorem felis nec erat.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui,
-                non pulvinar lorem felis nec erat.</p>
-            </div>
-        </section>
-
-        <section class="estilo-Discografia">
-            <div>
-                <img  class="estilo-Discografia__imagenDisco" src="img/r1.png">
-            </div>
-             
-            <div >
-                <iframe width="150%" height="400" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/987143449&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-                <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/user-428345035" title="Rodolfo Romero" target="_blank" style="color: #cccccc; text-decoration: none;">Rodolfo Romero</a> · <a href="https://soundcloud.com/user-428345035/hable-con-dios" title="Hable Con Dios" target="_blank" style="color: #cccccc; text-decoration: none;">Hable Con Dios</a>
-            </div>
-           
- 
+            <div class="row">
+                <div class="col">
+                    <h2 class="estilo-titulo__Naranja" >Bienvenidos</h2>
             
-            
-        </section>
-
-            <div><h2 class="estilo-Acerca__tituloAc">Acerca de Rodolfo Romero</h2> </div>
-        <section class="estilo-Acerca">
+                    <div class="col">
+                        <p class="estilo-Bienvenida__parrafoBie">A través de este medio queremos honrar la memoria 
+                        de un hombre y músico excepcional compartiendo su historia, hitos, música y testimonio de familia, amigos y alumnos.
                 
-            <div><img class="estilo-Acerca__imagenAc"  src="img/afiche-01.png" alt="Foto"> </div>
-            <div>
-                <p class=".estilo-Acerca__parrafoAc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui,
-                non pulvinar lorem felis nec erat.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui,
-                non pulvinar lorem felis nec erat.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui,
-                non pulvinar lorem felis nec erat.<br>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui,
-                non pulvinar lorem felis nec erat.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui,
-                non pulvinar lorem felis nec erat.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui,
-                non pulvinar lorem felis nec erat.
-                </p>
-                <div><button type="button" class="btn btn-dark text-light" href="biografia.html">Ver más</button></div>
-            </div>
-            
+                        Rodolfo Romero dejo marca en la vida de muchas personas, tanto como un hombre ejemplar, esposo, padre, hijo de Dios y músico.
+                        Te echamos de menos cada día que pasa, tu presencia sigue creciendo en nuestra memoria, por lo que queremos compartir esto con las personas
+                        que tuvieron el privilegio de conocerlo como los que no.</p>
+                    </div>
+                </div>
+            </div>   
+            <div class="row align-self-center">        
+                <div class="col-sm justify-content-center"><img class="img-fluid estilo-Bienvenida__imagen"  src="img/r5.jpg"></div>
+                <div class="col-sm justify-content-center">
+                    <blockquote class="blockquote mb-0 card-body">
+                        <p>Cuántos corazones tocaste, ese sera tu legado en esta Tierra</p>
+                        <footer class="blockquote-footer">
+                          <small class="text-muted">
+                            Autor <cite title="Source Title">Patti Davis</cite>
+                          </small>
+                        </footer>
+                      </blockquote>
+
+                </div>
+                <div class="col-sm justify-content-center"><img class="img-fluid estilo-Bienvenida__imagen" src="img/r6.jpg"></div>
+                    
+                
+            </div> 
         </section>
+        
+                
+                
+      <!-- Discografia -->
 
         
-            <section class="estilo-Recursos">
-                
-                <div class="card estilo-Recursos__efectoRe" >
-                    <img class="card-img" src="img/t8.png" alt="Recursos">
-                    <div class="card-img-overlay">
-                    <h3 class="card-text">Recursos</h3></a>
-                </div>
-                  </div>
-                  <div class="card estilo-Recursos__efectoRe">
-                    <img class="card-img" src="img/t9.png" alt="Galeria">
-                    <div class="card-img-overlay">
-                      <h3 class="card-text">Galeria</h3>
+        
+        <section class="estilo-Discografia">
+            <div class="container-fluid justify-content-center ">
+                <div class="row ">
+                    <div class="col-sm-4 align-self-center estilo-Discografia__col"> 
+                        <h2 class="estilo-titulo__oscuro" >Discografía</h2>
+                    
+                        <p class="estilo-Bienvenida__parrafoBie">Rodolfo Romero a demás de ser músico tambien fue compositor y productor de diferentes  
+                            proyectos musicales, tanto personales como para otros artístas. 
+                    
+                            En sus producciones pueden notarse diferentes géneros y estilos musicales, con letras con mensajes espirituales y tambien instrumentales.</p>
                     </div>
-                  </div>
-                  <div class="card estilo-Recursos__efectoRe">
-                    <img class="card-img" src="img/t10.png" alt="Descarga">
-                    <div class="card-img-overlay">
-                      <h3 class="card-text">Descarga</h3>
+             
+                    <div class="col-sm-8 align-self-center estilo-Discografia__col">
+                        <iframe width="80%" height="400" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/987143449&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/user-428345035" title="Rodolfo Romero" target="_blank" style="color: #cccccc; text-decoration: none;">Rodolfo Romero</a> · <a href="https://soundcloud.com/user-428345035/hable-con-dios" title="Hable Con Dios" target="_blank" style="color: #cccccc; text-decoration: none;">Hable Con Dios</a></div>
+                        
                     </div>
-                  </div>
-                
+                </div>               
+            </section>
+        </div>
 
+        <!-- Testimonios -->
+        <section class="estilo-Acerca">
+            <div class="row">
+                <div class="col-sm align-self-center">
+                <h2 class="estilo-titulo__Naranja">Testimonios sobre Rodolfo</h2>
+                <button type="button" class="btn btn-dark text-light" href="biografia.html">Ver más</button>
+                </div>
+                <div class="col-sm">
+                    <div class="card">
+                        
+                        <div class="card-body">
+                          <blockquote class="blockquote mb-0">
+                            <p>Que tiempo maravilloso cuando un día lo ví en la Escuela Estatal de Música "Don Ángel Móttola" impartiendo clases de Guitarra Clásica y pude observarle y quedé prendido de la técnica magistral con la cuál ejecutaba el instrumento y me dije:... </p>
+                            <footer class="blockquote-footer">Tu Hno y Amigo <cite title="Source Title">Juan Landaeta</cite></footer>
+                          </blockquote>
+                        </div>
+                      </div>
+
+                </div>
+                <div class="col-sm">
+                    <div class="card">
+                        
+                        <div class="card-body">
+                          <blockquote class="blockquote mb-0">
+                            <p>Que tiempo maravilloso cuando un día lo ví en la Escuela Estatal de Música "Don Ángel Móttola" impartiendo clases de Guitarra Clásica y pude observarle y quedé prendido de la técnica magistral con la cuál ejecutaba el instrumento y me dije:...</p>
+                            <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                          </blockquote>
+                        </div>
+                      </div>
+
+                </div>
+                <div class="col-sm">
+                    <div class="card">
+                        
+                        <div class="card-body">
+                          <blockquote class="blockquote mb-0">
+                            <p>Que tiempo maravilloso cuando un día lo ví en la Escuela Estatal de Música "Don Ángel Móttola" impartiendo clases de Guitarra Clásica y pude observarle y quedé prendido de la técnica magistral con la cuál ejecutaba el instrumento y me dije:...</p>
+                            <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                          </blockquote>
+                        </div>
+                      </div>
+
+                </div>
+
+                
+            </div>
+            </div>
         </section>
+
+       <!--  RECURSOS -->
+            <section class="estilo-Recursos">
+                <div class="row">
+                    <div class="col">
+                        <div class="card estilo-Recursos__efectoRe"  >
+                            <img class="card-img" src="img/t8.png" alt="Recursos">
+                            <div class="card-img-overlay ">
+                            <h3 class="card-text">Recursos</h3></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card estilo-Recursos__efectoRe">
+                            <img class="card-img" src="img/t9.png" alt="Galeria">
+                            <div class="card-img-overlay">
+                            <h3 class="card-text">Galeria</h3>
+                             </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card estilo-Recursos__efectoRe">
+                            <img class="card-img" src="img/t10.png" alt="Descarga">
+                            <div class="card-img-overlay">
+                            <h3 class="card-text">Descarga</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
            
         <footer>
             <div>
@@ -176,6 +266,11 @@
         </footer>
         <div class="footer__copyrigth">2021 copyrigth Rodolfo Romero- Todos los derechos reservados - Diseño everocreativo</div>
         
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>  
        
         <script src="https://use.fontawesome.com/3c21ed3659.js"></script>
         <script src="https://code.jquery.com/jquery-3.3.1.min.js" charset="utf-8"></script>

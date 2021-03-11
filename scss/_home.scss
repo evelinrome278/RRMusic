@@ -3,20 +3,11 @@
 /*Seccion Bienvenida*/
 
 .estilo-Bienvenida{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    background-image: url("../img/2.jpg");
-    background-repeat: no-repeat;
-    width: 100%;
-    background-size: cover;
+    
+   padding: 5px;
 }
 
-.estilo-Bienvenida__tituloBie{
-    padding: 50px;
-    font-size: 30px;
-    color:$colorNaranja;
-    font: $tituloGrande;
-}
+
 
 .estilo-Bienvenida__parrafoBie{
     padding:30px;
@@ -26,52 +17,32 @@
 
 }
 
-.estilo-Bienvenida2{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-items: center;
-    align-items: center;
-    font-size: 16px;
-    color:rgb(255, 255, 255);
-    margin: 20px;
-}
 
 
-.estilo-Bienvenida__imagenBie2{
-    display: grid;
-    width: 60%;
+
+.estilo-Bienvenida__imagen{
+    padding: 10px;
     
 }
 
-.estilo-Bienvenida__imagenBie2:hover{
-    transform: scale(1.2);
+.estilo-Bienvenida__imagen:hover{
+    transform: scale(1.1);
 
 }
 
 //sección Discografía//
 
 .estilo-Discografia{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    justify-items: center;
+    
+    background-color: $colorNaranja;
+    margin: 0;
+    padding: 0;
+}
+
+
+.estilo-Discografia__col{
+    padding: 2em;
     align-items: center;
-    background-image: url("../img/3.jpg");
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100%;
-    background-size: cover;
-}
-
-
-table{
-    
-    background-color:$colorGrisclaro;
-    
-    
-}
-
-.estilo-Discografia__imagenDisco{
-    width:100%;
     
     
 }
@@ -79,13 +50,9 @@ table{
 /*Sección acerca*/ 
 
 .estilo-Acerca{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    background-image: url("../img/4.jpg");
-    background-repeat: no-repeat;
+   
     padding: 15px 15px;
-    width: 100%;
-    background-size: cover;
+    
 }
 
 .estilo-Acerca__imagenAc{
@@ -111,15 +78,10 @@ width: 90%;
 /*Sección Recursos*/
 
 .estilo-Recursos{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    background-image: url("../img/3.jpg");
+    background-color: $colorNaranja;
     padding: 20px;
-    background-repeat: no-repeat;
     text-align: center;
-    width: 100%;
-    background-size: cover;
-    font: $tituloGrande;
+    
    
 }
 
@@ -131,6 +93,6 @@ width: 90%;
 }
 
 .estilo-Recursos__efectoRe:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 

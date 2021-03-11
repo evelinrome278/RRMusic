@@ -14,5 +14,13 @@
     "nodemon": "^2.0.7"
   },
   "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evelinrome278/RRMusic.git"
+  },
+  "bugs": {
+    "url": "https://github.com/evelinrome278/RRMusic/issues"
+  },
+  "homepage": "https://github.com/evelinrome278/RRMusic#readme",
   "description": ""
 }

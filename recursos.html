@@ -15,32 +15,37 @@
 </head>
 <body>
   <header class="header-otros">
-    <div class="container-fluid">
-        <div class="row header-otros__Menu">
-          <div class= "col-sm-2  justify-content-center">
-            <img src="img/logo.png" class="header-otros-Menu__logo" alt="logo">
-          </div>
-      <div class= "col-sm-10">
-        <ul class="nav">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#opciones">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <!-- logo -->
+      <a class="navbar-brand" href="index.html">
+        <img src="img/logo.png" width="80" height="80" alt="logo">
+      </a>
+      
+      <!-- enlaces -->
+      <div class="collapse navbar-collapse" id="opciones">   
+        <ul class="navbar-nav">
           <li class="nav-item">
             <a class="nav-link" href="index.html">Inicio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="biografia.html">Biografía</a>
           </li>
-        
           <li class="nav-item">
-            <a class="nav-link active" href="galeria.html" tabindex="-1" aria-disabled="true">Galería</a>
+            <a class="nav-link" href="galeria.html">Galería</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="recursos.html">Recursos</a>
-          </li>
+          </li> 
           <li class="nav-item">
-            <a class="nav-link" href="contacto.html">Contacto</a>
-          </li>
+              <a class="nav-link" href="contacto.html">Contacto </a>
+            </li>            
         </ul>
-      </div>    
-    </div>
+      </div>
+    </nav>
 
     <div class="w-100 d-none d-block">
            
@@ -57,15 +62,15 @@
     <div class="container text-center estilo_cont">
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
         <div class="col">
-          <img class="img_recurso"src="img/recurso1.png" alt="Afinador">
+          <img class="img_recurso estilo-Recursos__efectoRe"src="img/recurso1.png" alt="Afinador">
           <h4>Afinador en linea</h4>
         </div>
         <div class="col">
-          <img class="img_recurso"src="img/recurso2.png" alt="Metrónomo">
+          <img class="img_recurso estilo-Recursos__efectoRe"src="img/recurso2.png" alt="Metrónomo">
           <h4>Metrónomo</h4>
         </div>
         <div class="col">
-          <img class="img_recurso"src="img/recurso3.png" alt="Diccionario Acordes">
+          <img class="img_recurso estilo-Recursos__efectoRe"src="img/recurso3.png" alt="Diccionario Acordes">
           <h4>Diccionario Acordes</h4>
         </div>
       </div>
@@ -177,7 +182,9 @@
 </footer>
 
 <div class="footer__copyrigth">2021 copyrigth Rodolfo Romero- Todos los derechos reservados - Diseño everocreativo</div>  
-
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>  
   
     
 </body>
